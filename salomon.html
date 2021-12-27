@@ -21,17 +21,29 @@ body{
 
 <body>
 <form><br/>
-<input type="button" name="ki" value="accueil"  onclick="retour()"/>
-<input type="button" name="li" value=" photos" onclick="envoyer()"  />
+<input type="button" id="button" name="ki" value="accueil"  onclick="retour()"/>
+<input type="button" id="but" name="li" value=" photos" onclick="envoyer()"  />
 </form>
 <h1 class="ve"> my pictures</h1>
 <div class="ji">
-<img src="f.jpg" width="309" height="400" /></div>
-<p class="ht"><div class="po"><img src="IMG-20191216-WA0005.jpg" width="400" height="400"/></div><p><img src="i.jpg" width="400px" height="400px" /></p></p><br/><br/>
+<img src="f.jpg" width="400" height="400" /></div>
+<p class="ht"><div class="po"><img src="IMG-20191216-WA0005.jpg" width="400" height="400"/></div></p><br/><br/><br /><br />
+
 
 <style>
 
-
+#but{
+	width:150px;
+	height:70px;
+	font-size:24px;
+	background-color: #999;
+}
+#button{
+	width:150px;
+	height:70px;
+	font-size:24px;
+	background-color: #999;
+}
 div.po{
 	float:right;
 }
@@ -45,6 +57,7 @@ h1.ve{
 }
 div.ji{
 	float:left;
+	
 	padding:2cm;
 
 }
